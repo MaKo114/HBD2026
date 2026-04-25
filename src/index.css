@@ -1,0 +1,56 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+body {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 500;
+}
+
+@theme {
+  --color-vanilla: #f0e4d0;
+  --color-chocolate: #553c13;
+  --color-candle: #7b020b;
+
+  --shadow-cake-layer: 0 2px 0 #5d4215, 0 4px 0 #412e0f, 0 6px 0 #3f2d0e, 0 8px 0 #3d2c0e, 0 10px 0 #3b2a0d, 0 12px 0 #39290d, 0 14px 0 #38280d, 0 16px 0 #36270d, 0 18px 0 #34260d, 0 20px 0 #32250c, 0 22px 0 #31230c, 0 24px 0 #2f220c, 0 26px 0 #2d210c, 0 28px 0 #2b200b, 0 30px 0 #2a1f0b;
+  --shadow-plate: 0 2px 0 #b3b3b3, 0 4px 0 #b3b3b3, 0 5px 40px rgba(0, 0, 0, 0.5);
+  --shadow-flame: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
+
+  --animate-flicker: flicker 1s ease-in-out alternate infinite;
+ 
+  --animate-fade-in: fadeIn 1s ease-in-out;
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+
+  @keyframes flicker {
+
+    0%,
+    100% {
+      transform: skewX(5deg);
+      opacity: 0.8;
+    }
+
+    25% {
+      transform: skewX(-5deg);
+      opacity: 1;
+    }
+
+    50% {
+      transform: skewX(10deg);
+      opacity: 0.9;
+    }
+
+    75% {
+      transform: skewX(-10deg);
+      opacity: 1;
+    }
+  }
+}
+
+
+
