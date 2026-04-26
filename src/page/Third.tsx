@@ -9,7 +9,11 @@ const Third = ({ isRead, setIsRead }: ThirdProps) => {
   return (
     <section className="min-h-[80vh] py-20 flex flex-col justify-center items-center  ">
       <div className="text-lg font-bold text-white">
+<<<<<<< HEAD
         <h1 className="text-center">A LETTER 💌</h1>
+=======
+        <h1 className="text-center">A LETTER</h1>
+>>>>>>> a1d031f (fiexd: edit letter)
         <p className="text-2xl text-center">จดหมายถึงเธอ</p>
       </div>
       <button className="mt-10" onClick={() => setIsRead(!isRead)}>

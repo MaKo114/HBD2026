@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# HBD2026
+HBD
+=======
+>>>>>>> a1d031f (fiexd: edit letter)
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,3 +78,7 @@ export default defineConfig([
   },
 ])
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> 9d31f4a (Initial commit: birthday project)
+>>>>>>> a1d031f (fiexd: edit letter)

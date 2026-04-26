@@ -1,6 +1,10 @@
 const Envelop = ({ isRead }: { isRead: boolean }) => {
   const letter = {
+<<<<<<< HEAD
     text: "สุขสันต์วันเกิดนะครับอ้วน ขอให้เธอมีความสุขมากๆเลยนะ อยากให้เธอยิ้มเยอะๆ เธอเก่งมาก รอที่เราจะได้อยู่ด้วยกันนะ เค้ารักอ้วนนะครับ🫶🏻",
+=======
+    text: "สุขสันต์วันเกิดนะครับอ้วน ขอให้เธอมีความสุขมากๆเลยนะ ประสบความสำเร็จในทุกอย่าง อยากให้เธอยิ้มเยอะๆ เธอเป็นคนที่เก่งมาก เก่งที่สุดเลย เค้าคอยเป็นกำลังใจให้เสมอเลย รอที่เราจะได้อยู่ด้วยกันนะ เค้ารักอ้วนนะครับ🫶🏻",
+>>>>>>> a1d031f (fiexd: edit letter)
   };
   return (
     <div className="group h-50 w-80 md:h-50 md:w-100 perspective-[1000px]">
@@ -10,7 +14,13 @@ const Envelop = ({ isRead }: { isRead: boolean }) => {
         }`}
       >
         <div className="flex absolute inset-0 h-full w-full rounded-2xl bg-white p-4 backface-hidden">
+<<<<<<< HEAD
           <p className="self-center text-gray-600 text-base md:text-lg">{letter.text}</p>
+=======
+          <p className="self-center text-gray-600 text-base md:text-lg">
+            {letter.text}
+          </p>
+>>>>>>> a1d031f (fiexd: edit letter)
         </div>
 
         <div className="absolute inset-0 h-full w-full rounded-2xl bg-white transform-[rotateY(180deg)] backface-hidden flex justify-center items-center">
