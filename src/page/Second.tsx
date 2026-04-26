@@ -17,11 +17,16 @@ const Second = ({ section2 }: SecondProps) => {
         </div>
         <div className="mt-10 gap-10 flex flex-col justify-center items-center">
           <div className="flex justify-center items-center bg-white h-full w-auto p-3 pb-10 rounded-sm">
-            <img className="rounded-sm max-w-56 md:max-w-80" src="/images/tonfon11.jpg" alt="" />
+            <img
+              className="rounded-sm max-w-56 md:max-w-80"
+              src="/images/tonfon11.jpg"
+              alt=""
+            />
           </div>
-          <p className="mt-4 px-24 md:max-w-3xl text-base md:text-lg text-gray-100 text-center">
-            วันนี้คือวันพิเศษของคนพิเศษ ขอให้ทุกวันของเธอเต็มไปด้วยรอยยิ้มนะ
-          </p>
+          <div className="mt-4 px-24 md:max-w-3xl text-base md:text-lg text-gray-100 text-center">
+            <p className="font-bold">13.05.2004</p>
+            <p>วันนี้คือวันพิเศษของคนพิเศษ ขอให้ทุกวันของเธอเต็มไปด้วยรอยยิ้มนะ</p>
+          </div>
         </div>
       </div>
     </section>
