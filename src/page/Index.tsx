@@ -5,6 +5,7 @@ import Second from "./Second";
 import Third from "./Third";
 import Fourth from "./Fourth";
 import Speaker from "../components/Speaker";
+import Fifth from "./Fifth";
 
 const Index = () => {
   const [isLit, setIsLit] = useState<boolean>(true);
@@ -32,6 +33,10 @@ const Index = () => {
 
       {/* fouth section picture*/}
       <Fourth />
+
+      {/* fifth section picture*/}
+      <Fifth/>
+
     </div>
   );
 };

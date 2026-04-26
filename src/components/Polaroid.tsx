@@ -9,14 +9,6 @@ const Polaroid = () => {
       name: "Young Tonfon",
     },
     {
-      url: "/images/tonfon3.JPG",
-      name: "We mirror1",
-    },
-    {
-      url: "/images/tonfon4.jpg",
-      name: "We mirror2",
-    },
-    {
       url: "/images/tonfon8.jpg",
       name: "Six Tonfon",
     },
@@ -35,7 +27,7 @@ const Polaroid = () => {
   ];
 
   return (
-    <div className="grid grid-cols-2 gap-x-3 gap-y-6 md:gap-x-6 md:gap-y-10 max-w-md md:max-w-xl mx-auto p-4">
+    <div className="grid grid-cols-2 gap-x-3 gap-y-6 md:gap-x-6 md:gap-y-10 max-w-md md:max-w-xl mx-auto">
       {images.map((img, index) => {
         return (
           <div
@@ -43,9 +35,9 @@ const Polaroid = () => {
             flex flex-col items-center justify-between transition-transform duration-300 hover:scale-105 cursor-pointer"
             key={index}
           >
-            <div className="w-full h-full overflow-hidden bg-gray-50 flex items-center justify-center rounded-sm">
+            <div className="w-full h-full overflow-hidden bg-gray-50 flex justify-center rounded-sm">
               <img
-                className="w-full h-full object-cover"
+                className="h-full w-full object-cover"
                 src={img.url}
                 alt={img.name}
               />

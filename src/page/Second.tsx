@@ -16,7 +16,7 @@ const Second = ({ section2 }: SecondProps) => {
           <h1 className="text-2xl">อ้วนของเค้า</h1>
         </div>
         <div className="mt-10 gap-10 flex flex-col justify-center items-center">
-          <div className="flex justify-center items-center bg-white h-full w-auto p-3 pb-10 rounded-sm">
+          <div className="flex justify-center items-center bg-gray-50 h-full w-auto p-3 pb-10 rounded-sm hover:scale-105 transition-transform duration-300">
             <img
               className="rounded-sm max-w-56 md:max-w-80"
               src="/images/tonfon11.jpg"
