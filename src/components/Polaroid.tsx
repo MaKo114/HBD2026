@@ -1,35 +1,35 @@
 const Polaroid = () => {
   const images = [
     {
-      url: "/tonfon5.jpg",
+      url: "/images/tonfon5.jpg",
       name: "Sexy Tonfon",
     },
     {
-      url: "/tonfon13.png",
+      url: "/images/tonfon13.png",
       name: "Young Tonfon",
     },
     {
-      url: "/tonfon3.JPG",
+      url: "/images/tonfon3.JPG",
       name: "We mirror1",
     },
     {
-      url: "/tonfon4.jpg",
+      url: "/images/tonfon4.jpg",
       name: "We mirror2",
     },
     {
-      url: "/tonfon8.jpg",
+      url: "/images/tonfon8.jpg",
       name: "Six Tonfon",
     },
     {
-      url: "/tonfon9.jpg",
+      url: "/images/tonfon9.jpg",
       name: "One Tonfon",
     },
     {
-      url: "/tonfon10.jpg",
+      url: "/images/tonfon10.jpg",
       name: "Four Tonfon",
     },
     {
-      url: "/tonfon12.jpg",
+      url: "/images/tonfon12.jpg",
       name: "Two Tonfon",
     },
   ];
