@@ -15,11 +15,7 @@ const Index = () => {
   };
 
   return (
-<<<<<<< HEAD
-    <div className="bg-gradient-to-b from-[#f2a6c3] via-[#ed7ea5] to-[#de5a80] min-h-screen flex flex-col items-center justify-center relative overflow-hidden p-4">
-=======
     <div className="bg-linear-to-b from-[#f2a6c3] via-[#ed7ea5] to-[#de5a80] min-h-screen flex flex-col items-center justify-center relative overflow-hidden p-4">
->>>>>>> a1d031f (fiexd: edit letter)
       {/* ข้อความด้านบน */}
 
       {/* first section */}
