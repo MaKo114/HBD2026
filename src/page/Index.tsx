@@ -25,7 +25,7 @@ const Index = () => {
       <First isLit={isLit} setIsLit={setIsLit} scrollHandler={scrollHandler} />
 
       {/* second section */}
-      <Second section2={section2!} />
+      <Second section2={section2 as any} />
 
       {/* thrid section */}
       <Third isRead={isRead} setIsRead={setIsRead} />
