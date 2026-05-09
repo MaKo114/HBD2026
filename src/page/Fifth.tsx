@@ -12,6 +12,7 @@ const Fifth = () => {
           />
         </div>
         <h1 className=" mt-10">MADE WITH 💗 JUST FOR YOU</h1>
+        <h1 className="">🎁 อย่าลืมไปเอาของขวัญนะ 🎁</h1>
       </div>
     </section>
   );
